@@ -23,7 +23,9 @@
 
 /* mobile */
 @media (max-width: 640px) {
-
+    .desktop {
+        display: none;
+    }
 }
 
 /* tablet */
@@ -37,5 +39,11 @@
 @media (min-width: 1008px) {
     .mobile {
         display: none;
+    }
+    .hero-heading {
+        font-size: 45px;
+        margin: 0 150px;
+        width: 500px;
+        top: 35%;
     }
 }

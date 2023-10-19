@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 35px 0px;
+}
+.navbar .logo {
+    padding-left: 30px;
+}
+
+.navbar .mobile-menu {
+    padding-right: 30px;
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .desktop-menu {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+/* desktop */
+@media (min-width: 1008px) {
+    .mobile-menu {
+        display: none;
+    }
+}

@@ -5,14 +5,7 @@
     width: 100%;
     position: absolute;
     z-index: 1;
-    padding: 35px 0px;
-}
-.navbar .logo {
-    padding-left: 30px;
-}
-
-.navbar .mobile-menu {
-    padding-right: 30px;
+    padding: 35px 30px;
 }
 
 .offcanvas-header {
@@ -52,5 +45,21 @@
 @media (min-width: 1008px) {
     .mobile-menu {
         display: none;
+    }
+    .navbar {
+        padding: 50px 150px;
+    }
+    .navs {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+    }
+    .navs li a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
     }
 }

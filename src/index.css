@@ -3,3 +3,10 @@
   padding: 0;
   color: black;
 }
+
+a {
+  padding-bottom: 5px;
+}
+a:hover {
+  border-bottom: 2px solid white;
+}

@@ -52,7 +52,13 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .footer-navs ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .socmed-links {
+        margin-bottom: 10px;
+    }
 }
 
 /* desktop */

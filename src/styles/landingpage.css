@@ -41,6 +41,15 @@
     position: relative;
 }
 
+.creations-container:hover {
+    .creation-img {
+        opacity: 0.5;
+    }
+    .creation-name {
+        color: black;
+    }
+}
+
 .creation-img {
     height: auto;
     width: 100%;
@@ -138,13 +147,5 @@
     .creations-container {
         flex: 1 0 calc(25% - 10px);
         cursor: pointer;
-    }
-    .creations-container:hover {
-        .creation-img {
-            opacity: 0.5;
-        }
-        .creation-name {
-            color: black;
-        }
     }
 }

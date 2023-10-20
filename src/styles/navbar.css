@@ -38,7 +38,9 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .desktop-menu {
+        display: none;
+    }
 }
 
 /* desktop */

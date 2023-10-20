@@ -111,8 +111,11 @@
         margin-bottom: 100px;
     }
     .creations-container {
-        flex: 1 0 calc(25% - 10px);
+        flex: 1 0 calc(30% - 10px);
         cursor: pointer;
+    }
+    .creation-name {
+        left: 10px;
     }
 }
 

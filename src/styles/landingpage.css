@@ -92,7 +92,28 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .h-b {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .creation-img {
+        height: auto;
+        width: 100%;
+    }        
+    .creations {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 100px;
+    }
+    .creations-container {
+        flex: 1 0 calc(25% - 10px);
+        cursor: pointer;
+    }
 }
 
 /* desktop */

@@ -1,10 +1,32 @@
-# React + Vite
+# Frontend Mentor - Loopstudios landing page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# loopstudios
-# loopstudios
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./src/assets/design/loopstudios.gif)
+
+### Links
+
+- Solution URL: [loopstudios-solution](https://github.com/lawrenceprieto/loopstudios?search=1)
+- Live Site URL: [loopstudios](https://lawrenceprieto.github.io/loopstudios/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- media querry
+- Mobile-first workflow
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
